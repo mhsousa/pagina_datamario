@@ -17,8 +17,12 @@ c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3
 </g>
 </svg>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-<h1 style="text-align: center;" >DATAMARIO</h1><br>
+<br>
+<h1 style="text-align: center;" >DATAIMESC</h1><br>
+<h6 style="text-align: center;" >LITE VERSION</h6><br>
 
+<br>
+<br>
 
 </div>
 <h2 id="titulo"></h2>
@@ -77,6 +81,56 @@ c-22.4,3-38.4,9.2-47.8,18.3c-11.2,10.9-13.6,26.7-16.3,45c-3.1,20.8-6.6,44.4-25.3
   <option value="48">48: Valor da Produção - Abacaxi</option>
   <option value="49">49: Valor da Produção - Algodão Herbáceo (em caroço)</option>
  <option value="50">50: Valor da Produção - Amendoim (em casca)</option>
+<option value="51">51 : Valor da Produção - Arroz (em casca)</option>
+  <option value="52">52: Valor da Produção - Batata-Doce</option>
+  <option value="53">53: Valor da Produção - Cana-de-Açúcar</option>
+  <option value="54">54: Valor da Produção - Fava (em grão) </option>
+  <option value="55">55: Valor da Produção - Feijão (em grão)</option>
+  <option value="56">56: Valor da Produção - Mandioca </option>
+  <option value="57">57: Valor da Produção - Melancia </option>
+  <option value="58">58: Valor da Produção - Melão</option>
+  <option value="59">59: Valor da Produção - Milho (em grão)</option>
+  <option value="60">60: Valor da Produção - Soja (em grão)</option>on>
+<option value="61">61: Valor da Produção - Sorgo (em grão)</option>
+  <option value="62">62: Valor da Produção - Tomate</option>
+  <option value="63">63: Quantidade Produzida - Banana (cacho)</option>
+  <option value="64">64: Quantidade Produzida - Borracha (látex coagulado)</option>
+  <option value="65">65: Quantidade Produzida - Castanha de caju</option>
+  <option value="66">66: Quantidade Produzida - Coco-da-baía </option>
+  <option value="67">67: Quantidade Produzida - Laranja</option>
+  <option value="68">68: Quantidade Produzida - Limão</option>
+  <option value="69">69: Quantidade Produzida - Mamão</option>
+  <option value="70">70: Quantidade Produzida - Manga</option>
+<option value="71">71: Quantidade Produzida - Maracujá</option>
+  <option value="72">72: Quantidade Produzida - Pimenta-do-Reino</option>
+  <option value="73">73: Quantidade Produzida - Tangerina</option>
+  <option value="74">74: Quantidade Produzida - Urucum (semente)</option>
+  <option value="75">75: Área Colhida Total - Lavoura Permanente</option>
+  <option value="76">76: Área Colhida - Banana</option>
+  <option value="77">77: Área Colhida - Borracha</option>
+  <option value="78">78: Área Colhida - Castanha de caju</option>
+  <option value="79">79: Área Colhida - Coco-da-baía</option>
+  <option value="80">80: Área Colhida - Laranja</option>
+<option value="81">81: Área Colhida - Limão</option>
+  <option value="82">82: Área Colhida - Mamão</option>
+  <option value="83">83: Área Colhida - Manga</option>
+  <option value="84">84: Área Colhida - Maracujá</option>
+  <option value="85">85: Área Colhida - Pimenta-do-Reino</option>
+  <option value="86">86: Área Colhida - Tangerina</option>
+  <option value="87">87: Área Colhida - Urucum</option>
+  <option value="88">88: Rendimento Médio da Produção - Banana (cacho)</option>
+  <option value="89">89: Rendimento Médio da Produção - Borracha (látex coagulado)</option>
+  <option value="90">90: Rendimento Médio da Produção - Castanha de caju</option>
+<option value="91">91: Rendimento Médio da Produção - Coco-da-baía</option>
+  <option value="92">92: Rendimento Médio da Produção - Laranja</option>
+  <option value="93">93: Rendimento Médio da Produção - Limão</option>
+  <option value="94">94: Rendimento Médio da Produção - Mamão</option>
+  <option value="95">95: Rendimento Médio da Produção - Manga</option>
+  <option value="96">96: Rendimento Médio da Produção - Maracujá</option>
+  <option value="97">97: Rendimento Médio da Produção - Pimenta-do-Reino</option>
+  <option value="98">98: Rendimento Médio da Produção - Tangerina</option>
+  <option value="99">99: Rendimento Médio da Produção - Urucum (semente)</option>
+  <option value="100">100: Valor da Produção Total - Lavoura Permanente</option>
 </select><button style="margin:6px" onclick="atualizar()" class="btn btn-primary">Pesquisar</button><br><br>
 <!--Waves Container-->
 <div>
@@ -111,8 +165,14 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 
 
 
-
-<button id="btnExport" onclick="fnExcelReport();" class="btn btn-outline-primary"> download </button>
+<br>
+<button onclick="atualizar()" class="btn btn-outline-primary">Total </button>
+<button id="btnFilterReg"," onclick="atualizeRegs()" class="btn btn-outline-primary">Filtrar Regiões </button>
+<button id="btnFilterReg"," onclick="atualizeBra()" class="btn btn-outline-primary">Filtrar Brasil </button>
+<button id="btnFilterReg"," onclick="atualizeEst()" class="btn btn-outline-primary">Filtrar Estados </button>
+<button id="btnFilterReg"," onclick="atualizeMuni()" class="btn btn-outline-primary">Filtrar Cidades </button>
+<button id="btnFilterReg"," onclick="fnExcelReport()()" class="btn btn-outline-success">Download </button>
+<br><br>
 <table id="data-table" class="table table-striped" style="overflow-y: scroll;"></table>
 
 
@@ -461,7 +521,6 @@ fetch(url)
 		document.getElementById("titulo").innerHTML=`Nome: ${data[0]['resultados'][0]['classificacoes'][0]['nome']}`
 		document.getElementById("subtitulo").innerHTML=`Categoria: ${Object.entries(data[0]['resultados'][0]['classificacoes'][0]['categoria'])[0][1]}`
 		document.getElementById("unity").innerHTML=`Unidade: ${data[0]['unidade']}`
-
 		cellA = row.insertCell();
 		cellA.innerHTML = "<strong>Localidade</strong>"
 		for(i in anos_chave){
@@ -472,7 +531,7 @@ fetch(url)
 			series_2=data[0]["resultados"][0]["series"][i]["serie"]
 			local=series_1[i]["localidade"]["nome"]
 			cellA = row.insertCell();
-			cellA.innerHTML = local;
+			cellA.innerHTML = `<strong>${local}</strong>`;
 			for (let [key, value] of Object.entries(series_2)) {
 				  cellA = row.insertCell();
 				  cellA.innerHTML = value;
@@ -481,7 +540,148 @@ fetch(url)
 			table.insertRow();
 	};
 	})};
+
+
 </script>
+<script>
+
+var regs=["Norte","Nordeste","Sul","Suldeste","Centro-Oeste"]
+function atualizeRegs(){
+document.getElementById("data-table").innerHTML=""
+let serie= document.getElementById("select_serie").value
+let url = dicio[serie];
+var table = document.getElementById("data-table")	
+fetch(url)
+     .then((response) => {
+     return response.json();
+     })
+     .then((data) => {
+		var anos_chave=Object.keys(data[0]["resultados"][0]["series"][0]["serie"])
+		var row = table.insertRow();
+		cellA = row.insertCell();
+		cellA.innerHTML = "<strong>Localidade</strong>"
+		for(i in anos_chave){
+			cellA = row.insertCell();
+			cellA.innerHTML = `<strong>${anos_chave[i]}</strong>`;
+			console.log(anos_chave[i])}
+		var series_1=data[0]["resultados"][0]["series"]
+		
+		for (i in series_1){ 
+		var row = table.insertRow();
+		series_2=data[0]["resultados"][0]["series"][i]["serie"]
+		local=series_1[i]["localidade"]["nome"]
+		if(regs.includes(local)){
+		cellA = row.insertCell();
+		cellA.innerHTML = `<strong>${local}</strong>`;
+		for (let [key, value] of Object.entries(series_2)) {
+			cellA = row.insertCell();
+			cellA.innerHTML = value;}}}})}
+</script>
+<script>
+
+var bra=["Brasil"]
+function atualizeBra(){
+document.getElementById("data-table").innerHTML=""
+let serie= document.getElementById("select_serie").value
+let url = dicio[serie];
+var table = document.getElementById("data-table")	
+fetch(url)
+     .then((response) => {
+     return response.json();
+     })
+     .then((data) => {
+		var anos_chave=Object.keys(data[0]["resultados"][0]["series"][0]["serie"])
+		var row = table.insertRow();
+		cellA = row.insertCell();
+		cellA.innerHTML = "<strong>Localidade</strong>"
+		for(i in anos_chave){
+			cellA = row.insertCell();
+			cellA.innerHTML = `<strong>${anos_chave[i]}</strong>`;
+			console.log(anos_chave[i])}
+		var series_1=data[0]["resultados"][0]["series"]
+		
+		for (i in series_1){ 
+		var row = table.insertRow();
+		series_2=data[0]["resultados"][0]["series"][i]["serie"]
+		local=series_1[i]["localidade"]["nome"]
+		if(bra.includes(local)){
+		cellA = row.insertCell();
+		cellA.innerHTML = `<strong>${local}</strong>`;
+		for (let [key, value] of Object.entries(series_2)) {
+			cellA = row.insertCell();
+			cellA.innerHTML = value;}}}})}
+</script>
+<script>
+
+var estados=["Acre","Alagoas","Amapá","Amazonas","Bahia","Ceará","Distrito Federal", "Espírito Santo", "Goiás", "Maranhão","Mato Grosso","Mato Grosso do Sul", "Minas Gerais", "Pará", "Paraíba", "Paraná", "Pernambuco","Piauí", "Rio de Janeiro","Rio Grande do Sul","Rio Grande do Norte", "Rondônia", "Roraima","Santa Catarina", "São Paulo", "Sergipe", "Tocantins"]
+function atualizeEst(){
+document.getElementById("data-table").innerHTML=""
+let serie= document.getElementById("select_serie").value
+let url = dicio[serie];
+var table = document.getElementById("data-table")	
+fetch(url)
+     .then((response) => {
+     return response.json();
+     })
+     .then((data) => {
+		var anos_chave=Object.keys(data[0]["resultados"][0]["series"][0]["serie"])
+		var row = table.insertRow();
+		cellA = row.insertCell();
+		cellA.innerHTML = "<strong>Localidade</strong>"
+		for(i in anos_chave){
+			cellA = row.insertCell();
+			cellA.innerHTML = `<strong>${anos_chave[i]}</strong>`;
+			console.log(anos_chave[i])}
+		var series_1=data[0]["resultados"][0]["series"]
+		
+		for (i in series_1){ 
+		var row = table.insertRow();
+		series_2=data[0]["resultados"][0]["series"][i]["serie"]
+		local=series_1[i]["localidade"]["nome"]
+		if(estados.includes(local)){
+		cellA = row.insertCell();
+		cellA.innerHTML = `<strong>${local}</strong>`;
+		for (let [key, value] of Object.entries(series_2)) {
+			cellA = row.insertCell();
+			cellA.innerHTML = value;}}}})}
+</script>
+<script>
+muni=["Acre","Alagoas","Amapá","Amazonas","Bahia","Ceará","Distrito Federal", "Espírito Santo", "Goiás", "Maranhão","Mato Grosso","Mato Grosso do Sul", "Minas Gerais", "Pará", "Paraíba", "Paraná", "Pernambuco","Piauí", "Rio de Janeiro","Rio Grande do Sul","Rio Grande do Norte", "Rondônia", "Roraima","Santa Catarina", "São Paulo", "Sergipe", "Tocantins","Norte","Sul","Nordeste","Centro-Oeste","Sudeste","Brasil"]
+function atualizeMuni(){
+document.getElementById("data-table").innerHTML=""
+let serie= document.getElementById("select_serie").value
+let url = dicio[serie];
+var table = document.getElementById("data-table")	
+fetch(url)
+     .then((response) => {
+     return response.json();
+     })
+     .then((data) => {
+		var anos_chave=Object.keys(data[0]["resultados"][0]["series"][0]["serie"])
+		var row = table.insertRow();
+		cellA = row.insertCell();
+		cellA.innerHTML = "<strong>Localidade</strong>"
+		for(i in anos_chave){
+			cellA = row.insertCell();
+			cellA.innerHTML = `<strong>${anos_chave[i]}</strong>`;
+			console.log(anos_chave[i])}
+		var series_1=data[0]["resultados"][0]["series"]
+		
+		for (i in series_1){ 
+		var row = table.insertRow();
+		series_2=data[0]["resultados"][0]["series"][i]["serie"]
+		local=series_1[i]["localidade"]["nome"]
+		if(!muni.includes(local)){
+		cellA = row.insertCell();
+		cellA.innerHTML = `<strong>${local}</strong>`;
+		for (let [key, value] of Object.entries(series_2)) {
+			cellA = row.insertCell();
+			cellA.innerHTML = value;}}}})}
+</script>
+
+
+
+
 </html>
 <style>
 table{
@@ -508,16 +708,17 @@ td {
 HTML CSSResult Skip Results Iframe
 EDIT ON
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
-
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
 body {
   margin:0;
 }
 
 h1 {
-  font-family: 'Lato', sans-serif;
+
   font-weight:300;
   letter-spacing: 2px;
-  font-size:48px;
+  font-size:84px;
+  font-family: JetBrains Mono, sans-serif;
 }
 p {
   font-family: 'Lato', sans-serif;
@@ -612,12 +813,7 @@ p {
     font-size:24px;
   }
 }
-#btnExport{
-  position: relative;
-  top:0%;
-  left: 17px;
-  transform: translateY(-50%);
-}
+
 
 Resources
 
